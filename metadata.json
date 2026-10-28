@@ -1,0 +1,6 @@
+{
+  "name": "Telos Tiyator & Dance Group",
+  "description": "Ethiopian traditional theatre, cultural dance performances, event bookings, and artistic productions celebrating Ethiopian heritage in Amharic and English.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

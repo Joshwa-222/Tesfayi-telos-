@@ -1,0 +1,52 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-amharic: 'Noto Sans Ethiopic', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    --font-display: 'Cinzel', 'Noto Sans Ethiopic', Georgia, serif;
+    --font-body: 'Plus Jakarta Sans', 'Noto Sans Ethiopic', sans-serif;
+  }
+
+  body {
+    font-family: var(--font-body);
+    background-color: #0B0B0C;
+    color: #F3F4F6;
+    overflow-x: hidden;
+  }
+
+  [lang="am"] {
+    font-family: var(--font-amharic);
+  }
+}
+
+.font-display {
+  font-family: var(--font-display);
+}
+
+.font-amharic {
+  font-family: var(--font-amharic);
+}
+
+.font-body {
+  font-family: var(--font-body);
+}
+
+/* Subtle Ethiopian Tibeb Geometric Accent */
+.tibeb-border-gold {
+  background-image: repeating-linear-gradient(
+    45deg,
+    #D4AF37 0,
+    #D4AF37 6px,
+    #B91C1C 6px,
+    #B91C1C 12px,
+    #15803D 12px,
+    #15803D 18px,
+    #0B0B0C 18px,
+    #0B0B0C 24px
+  );
+}
+
+.tibeb-pattern-subtle {
+  background-image: radial-gradient(#D4AF37 1px, transparent 1px);
+  background-size: 24px 24px;
+}
